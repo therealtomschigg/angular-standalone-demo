@@ -67,7 +67,7 @@ export class LoginComponent {
     const { username, password } = this.loginForm.value;
     const success = this.authService.login(username, password);
     if (success) {
-      this.router.navigate(['/protected']);
+      this.router.navigate(['/dashboard']);
     } else {
       this.loginError = 'Ungültiger Benutzername oder Passwort';
     }
