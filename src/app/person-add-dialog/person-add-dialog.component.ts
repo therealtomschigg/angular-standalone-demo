@@ -33,13 +33,13 @@ import { FormsModule, ReactiveFormsModule, FormBuilder, FormGroup, Validators } 
       <!-- Vorname -->
       <mat-form-field appearance="outline" style="width: 100%;">
         <mat-label>Vorname</mat-label>
-        <input matInput formControlName="vorname" placeholder="Vorname">
+        <input matInput formControlName="vorname" placeholder="">
       </mat-form-field>
       
       <!-- Nachname -->
       <mat-form-field appearance="outline" style="width: 100%;">
         <mat-label>Nachname</mat-label>
-        <input matInput formControlName="nachname" placeholder="Nachname">
+        <input matInput formControlName="nachname" placeholder="">
       </mat-form-field>
       
       <!-- Slide Toggle: E-Mail an Person senden -->
@@ -51,7 +51,7 @@ import { FormsModule, ReactiveFormsModule, FormBuilder, FormGroup, Validators } 
       <div *ngIf="addPersonForm.get('sendEmail')?.value">
         <mat-form-field appearance="outline" style="width: 100%;">
           <mat-label>E-Mail</mat-label>
-          <input matInput formControlName="email" placeholder="E-Mail" type="email">
+          <input matInput formControlName="email" placeholder="" type="email">
         </mat-form-field>
       </div>
       

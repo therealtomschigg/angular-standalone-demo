@@ -51,7 +51,7 @@ import { MatIconModule } from '@angular/material/icon';
       align-items: center;
     }
     .kpi-icon {
-      font-size: 48px;
+      font-size: 22px;
       color: #3f51b5;
       margin-right: 16px;
     }

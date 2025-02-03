@@ -42,9 +42,7 @@ const PERSON_DATA: Person[] = [
     MatButtonModule,
     MatIconModule,
     FormsModule,
-    MatDialogModule,
-    PersonDetailDialogComponent,
-    PersonAddDialogComponent
+    MatDialogModule
   ],
   template: `
     <!-- Kopfbereich: Suchfeld und "Person anlegen"-Button -->
